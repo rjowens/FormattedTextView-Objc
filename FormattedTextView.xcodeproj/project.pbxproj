@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22404E4156D5BBA007C34B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22404E3156D5BBA007C34B1 /* UIKit.framework */; };
+		A22404E6156D5BBA007C34B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22404E5156D5BBA007C34B1 /* Foundation.framework */; };
+		A22404E8156D5BBA007C34B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22404E7156D5BBA007C34B1 /* CoreGraphics.framework */; };
+		A22404EE156D5BBA007C34B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A22404EC156D5BBA007C34B1 /* InfoPlist.strings */; };
+		A22404F0156D5BBA007C34B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22404EF156D5BBA007C34B1 /* main.m */; };
+		A22404F4156D5BBA007C34B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22404F3156D5BBA007C34B1 /* AppDelegate.m */; };
+		A22404FF156D5C1E007C34B1 /* ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A22404FE156D5C1E007C34B1 /* ColorHelper.m */; };
+		A2240502156D61B7007C34B1 /* FormattedTextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A2240501156D61B7007C34B1 /* FormattedTextHelper.m */; };
+		A2240504156D683B007C34B1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2240503156D683B007C34B1 /* CoreText.framework */; };
+		A2240507156D7353007C34B1 /* FormattedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2240506156D7353007C34B1 /* FormattedTextView.m */; };
+		A2240509156D73B5007C34B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2240508156D73B5007C34B1 /* QuartzCore.framework */; };
+		A224050C156E88AD007C34B1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A224050B156E88AD007C34B1 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A22404DF156D5BBA007C34B1 /* FormattedTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormattedTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22404E3156D5BBA007C34B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A22404E5156D5BBA007C34B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A22404E7156D5BBA007C34B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A22404EB156D5BBA007C34B1 /* FormattedTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FormattedTextView-Info.plist"; sourceTree = "<group>"; };
+		A22404ED156D5BBA007C34B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A22404EF156D5BBA007C34B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A22404F1156D5BBA007C34B1 /* FormattedTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FormattedTextView-Prefix.pch"; sourceTree = "<group>"; };
+		A22404F2156D5BBA007C34B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A22404F3156D5BBA007C34B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A22404FD156D5C1E007C34B1 /* ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorHelper.h; path = Helper/ColorHelper.h; sourceTree = "<group>"; };
+		A22404FE156D5C1E007C34B1 /* ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorHelper.m; path = Helper/ColorHelper.m; sourceTree = "<group>"; };
+		A2240500156D61B7007C34B1 /* FormattedTextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormattedTextHelper.h; path = Helper/FormattedTextHelper.h; sourceTree = "<group>"; };
+		A2240501156D61B7007C34B1 /* FormattedTextHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormattedTextHelper.m; path = Helper/FormattedTextHelper.m; sourceTree = "<group>"; };
+		A2240503156D683B007C34B1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A2240505156D7353007C34B1 /* FormattedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormattedTextView.h; path = View/FormattedTextView.h; sourceTree = "<group>"; };
+		A2240506156D7353007C34B1 /* FormattedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormattedTextView.m; path = View/FormattedTextView.m; sourceTree = "<group>"; };
+		A2240508156D73B5007C34B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A224050A156E88AD007C34B1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Controller/RootViewController.h; sourceTree = "<group>"; };
+		A224050B156E88AD007C34B1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Controller/RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22404DC156D5BBA007C34B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2240509156D73B5007C34B1 /* QuartzCore.framework in Frameworks */,
+				A2240504156D683B007C34B1 /* CoreText.framework in Frameworks */,
+				A22404E4156D5BBA007C34B1 /* UIKit.framework in Frameworks */,
+				A22404E6156D5BBA007C34B1 /* Foundation.framework in Frameworks */,
+				A22404E8156D5BBA007C34B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22404D4156D5BBA007C34B1 = {
+			isa = PBXGroup;
+			children = (
+				A2240508156D73B5007C34B1 /* QuartzCore.framework */,
+				A2240503156D683B007C34B1 /* CoreText.framework */,
+				A22404E9156D5BBA007C34B1 /* FormattedTextView */,
+				A22404E2156D5BBA007C34B1 /* Frameworks */,
+				A22404E0156D5BBA007C34B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22404E0156D5BBA007C34B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22404DF156D5BBA007C34B1 /* FormattedTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22404E2156D5BBA007C34B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A22404E3156D5BBA007C34B1 /* UIKit.framework */,
+				A22404E5156D5BBA007C34B1 /* Foundation.framework */,
+				A22404E7156D5BBA007C34B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A22404E9156D5BBA007C34B1 /* FormattedTextView */ = {
+			isa = PBXGroup;
+			children = (
+				A22404FC156D5C08007C34B1 /* Helper */,
+				A22404FB156D5BF5007C34B1 /* View */,
+				A22404FA156D5BEE007C34B1 /* Controller */,
+				A22404F2156D5BBA007C34B1 /* AppDelegate.h */,
+				A22404F3156D5BBA007C34B1 /* AppDelegate.m */,
+				A22404EA156D5BBA007C34B1 /* Supporting Files */,
+			);
+			path = FormattedTextView;
+			sourceTree = "<group>";
+		};
+		A22404EA156D5BBA007C34B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A22404EB156D5BBA007C34B1 /* FormattedTextView-Info.plist */,
+				A22404EC156D5BBA007C34B1 /* InfoPlist.strings */,
+				A22404EF156D5BBA007C34B1 /* main.m */,
+				A22404F1156D5BBA007C34B1 /* FormattedTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A22404FA156D5BEE007C34B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A224050A156E88AD007C34B1 /* RootViewController.h */,
+				A224050B156E88AD007C34B1 /* RootViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A22404FB156D5BF5007C34B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2240505156D7353007C34B1 /* FormattedTextView.h */,
+				A2240506156D7353007C34B1 /* FormattedTextView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A22404FC156D5C08007C34B1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A22404FD156D5C1E007C34B1 /* ColorHelper.h */,
+				A22404FE156D5C1E007C34B1 /* ColorHelper.m */,
+				A2240500156D61B7007C34B1 /* FormattedTextHelper.h */,
+				A2240501156D61B7007C34B1 /* FormattedTextHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22404DE156D5BBA007C34B1 /* FormattedTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22404F7156D5BBA007C34B1 /* Build configuration list for PBXNativeTarget "FormattedTextView" */;
+			buildPhases = (
+				A22404DB156D5BBA007C34B1 /* Sources */,
+				A22404DC156D5BBA007C34B1 /* Frameworks */,
+				A22404DD156D5BBA007C34B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormattedTextView;
+			productName = FormattedTextView;
+			productReference = A22404DF156D5BBA007C34B1 /* FormattedTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22404D6156D5BBA007C34B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Richard J Owens";
+			};
+			buildConfigurationList = A22404D9156D5BBA007C34B1 /* Build configuration list for PBXProject "FormattedTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A22404D4156D5BBA007C34B1;
+			productRefGroup = A22404E0156D5BBA007C34B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22404DE156D5BBA007C34B1 /* FormattedTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22404DD156D5BBA007C34B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22404EE156D5BBA007C34B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22404DB156D5BBA007C34B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22404F0156D5BBA007C34B1 /* main.m in Sources */,
+				A22404F4156D5BBA007C34B1 /* AppDelegate.m in Sources */,
+				A22404FF156D5C1E007C34B1 /* ColorHelper.m in Sources */,
+				A2240502156D61B7007C34B1 /* FormattedTextHelper.m in Sources */,
+				A2240507156D7353007C34B1 /* FormattedTextView.m in Sources */,
+				A224050C156E88AD007C34B1 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A22404EC156D5BBA007C34B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22404ED156D5BBA007C34B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22404F5156D5BBA007C34B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A22404F6156D5BBA007C34B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22404F8156D5BBA007C34B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormattedTextView/FormattedTextView-Prefix.pch";
+				INFOPLIST_FILE = "FormattedTextView/FormattedTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A22404F9156D5BBA007C34B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormattedTextView/FormattedTextView-Prefix.pch";
+				INFOPLIST_FILE = "FormattedTextView/FormattedTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22404D9156D5BBA007C34B1 /* Build configuration list for PBXProject "FormattedTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22404F5156D5BBA007C34B1 /* Debug */,
+				A22404F6156D5BBA007C34B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22404F7156D5BBA007C34B1 /* Build configuration list for PBXNativeTarget "FormattedTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22404F8156D5BBA007C34B1 /* Debug */,
+				A22404F9156D5BBA007C34B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22404D6156D5BBA007C34B1 /* Project object */;
+}
